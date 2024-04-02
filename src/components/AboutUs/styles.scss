@@ -35,6 +35,21 @@
       h3 {
         font-size: 2rem;
       }
+
+      #btn-about-us {
+        width: 100%;
+        text-align: center;
+        padding-top: 1rem;
+        button {
+          text-align: center;
+          background-color: $bg-color-third;
+          color: $color-text-third;
+          padding: 0.5rem 1.5rem;
+          border-radius: 1rem 1rem;
+          font-size: 1rem;
+          border: none;
+        }
+      }
     }
   }
 }
@@ -91,6 +106,13 @@
 
         h3 {
           font-size: 2.5rem;
+        }
+
+        #btn-about-us {
+          button {
+            border-radius: 1rem 1rem 0 0;
+            cursor: pointer;
+          }
         }
       }
     }
