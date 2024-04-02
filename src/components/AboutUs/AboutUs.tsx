@@ -28,6 +28,9 @@ const AboutUs = () => {
             aperiam quibusdam sapiente maxime expedita, ab in perferendis beatae
             velit quaerat repellat quas sit?
           </p>
+          <div id="btn-about-us">
+            <button>lorem ipsum</button>
+          </div>
         </div>
       </div>
     </section>
