@@ -3,7 +3,7 @@
 //style
 import "./styles.scss";
 
-import Logo from "../Logo";
+import Logo from "../LogoCompany/Logo";
 import { useState } from "react";
 
 const Header = () => {
