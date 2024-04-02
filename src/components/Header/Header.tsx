@@ -39,7 +39,7 @@ const Header = () => {
             voluptate, architecto et sint, nihil quidem aut aliquid laboriosam
             magnam inventore ipsum dignissimos quaerat at
           </p>
-          <div id="btn-header-container">
+          <div className="btn-header-container">
             <button
               onClick={handlebtnToHelp}
               style={
@@ -68,7 +68,39 @@ const Header = () => {
         style={{
           backgroundImage: "url('/bg-header.jpg')",
         }}
-      ></div>
+      >
+        <div id="card-header">
+          <h3>Lorem ipsum</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            iusto iure vero suscipit! Pariatur laudantium eligendi repellendus
+            dolorum, rem tempore error maxime blanditiis temporibus magni quia.
+            Perferendis numquam voluptatem nisi?
+          </p>
+          <div className="btn-header-container">
+            <button
+              onClick={handlebtnToHelp}
+              style={
+                btnSelected === "btn-help"
+                  ? { background: "#4d6bb9", color: "white" }
+                  : { background: "#fff", color: "#4d6bb9" }
+              }
+            >
+              Eu preciso de ajuda
+            </button>
+            <button
+              onClick={handlebtnToService}
+              style={
+                btnSelected === "btn-service"
+                  ? { background: "#4d6bb9", color: "white" }
+                  : { background: "#fff", color: "#4d6bb9" }
+              }
+            >
+              Quais os serviços
+            </button>
+          </div>
+        </div>
+      </div>
     </header>
   );
 };
