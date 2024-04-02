@@ -1,0 +1,67 @@
+@import "../../styles/variables.scss";
+
+#header-container {
+  width: 100%;
+  padding: 20px 0px;
+
+  #logo-and-content-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    #logo-and-title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+      #title-header {
+        width: 50%;
+        line-height: 30px;
+        color: $color-text-title;
+      }
+    }
+
+    #content-header-container {
+      padding: 1rem 1rem 0 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      background-color: $bg-color-third;
+      color: $color-text-third;
+
+      h2 {
+        font-size: 2rem;
+      }
+
+      #btn-header-container {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        justify-content: center;
+
+        button {
+          border: none;
+          border-radius: 1rem 1rem 0 0;
+          color: $color-text-third;
+          font-weight: 500;
+          font-size: 1rem;
+          padding: 1rem;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  #help-container {
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+  }
+}
